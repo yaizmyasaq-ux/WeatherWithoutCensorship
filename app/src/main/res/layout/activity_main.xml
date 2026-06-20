@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#F4F4F4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ПОГОДА\nБЕЗ ЦЕНЗУРЫ"
+        android:textColor="#111111"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:lineSpacingExtra="2dp" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Нужно разрешение на геопозицию"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="ОПРЕДЕЛИТЬ МЕСТО"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="После настройки добавь виджет через меню рабочего стола. Обновление — примерно каждые 30 минут и вручную по нажатию ↻."
+        android:textColor="#777777"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+</LinearLayout>
